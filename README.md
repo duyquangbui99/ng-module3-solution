@@ -22,21 +22,26 @@ This is a simple AngularJS application that allows users to search through a lis
 **Enter a Search Term**:
  - Type a search term in the input field (e.g., "soup", "appetizer").
  - Click the "Narrow It Down For Me!" button to filter menu items by the entered term.
+   
 **View Results**:
  - The results will appear in a scrollable list on the right side of the screen.
  - Each item displays the name, short name, and description of the menu item.
+   
 **Remove Unwanted Items**:
  - Click the "I Don't Want This" button next to an item to remove it from the list.
+   
 **Clear Results**:
  - If no items match the search term, a message saying "Nothing found" will appear.
 
 ## API Endpoint
 This application uses a publicly available API endpoint to fetch menu items:
-URL: https://coursera-jhu-default-rtdb.firebaseio.com/menu_items.json
+ - URL: https://coursera-jhu-default-rtdb.firebaseio.com/menu_items.json
 
 ## AngularJS Components
 **Controller**: NarrowItDownController manages the user input, invokes the search service, and handles the list of found items.
+
 **Service**: MenuSearchService interacts with the API to fetch menu items and filter them based on the search term.
+
 **Directive**: foundItems directive displays the filtered list of items and provides functionality to remove items.
 
 ## Author
