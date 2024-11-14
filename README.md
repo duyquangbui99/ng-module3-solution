@@ -13,10 +13,10 @@ This is a simple AngularJS application that allows users to search through a lis
 - **JavaScript**
 
 ## Feature
-**Search Menu Items**: Allows users to search through menu item descriptions using a search term.
-**Remove Unwanted Items**: Provides an option to remove items from the search results.
-**Scrollable List**: Displays search results in a scrollable area when there are many items.
-**Responsive Design**: Adjusts to various screen sizes and ensures a user-friendly experience.
+ - **Search Menu Items**: Allows users to search through menu item descriptions using a search term.
+ - **Remove Unwanted Items**: Provides an option to remove items from the search results.
+ - **Scrollable List**: Displays search results in a scrollable area when there are many items.
+ - **Responsive Design**: Adjusts to various screen sizes and ensures a user-friendly experience.
  
 ## Usage
 **Enter a Search Term**:
